@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.cache/
+.numba_cache/
+.mpl_cache/
+runs/
+outputs/
+results/
+*.log
+.DS_Store
+/checkpoints/

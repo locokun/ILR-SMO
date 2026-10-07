@@ -1,0 +1,47 @@
+{
+  "MouseBrain": {
+    "dataset": "MouseBrain",
+    "data_path": "data/MouseBrain",
+    "checkpoint": "checkpoints/MouseBrain.pth",
+    "cluster_method": "leiden",
+    "target_k": 10,
+    "batch_size": 1024,
+    "seed": 42
+  },
+  "HumanLymphNode": {
+    "dataset": "HumanLymphNodeNoImage",
+    "data_path": "data/HumanLymphNode",
+    "checkpoint": "checkpoints/HumanLymphNode.pth",
+    "cluster_method": "leiden",
+    "target_k": 7,
+    "batch_size": 1024,
+    "seed": 42
+  },
+  "HumanHippocampus": {
+    "dataset": "HumanHippocampus",
+    "data_path": "data/HumanHippocampus",
+    "checkpoint": "checkpoints/HumanHippocampus.pth",
+    "cluster_method": "leiden",
+    "target_k": 7,
+    "batch_size": 1024,
+    "seed": 42
+  },
+  "MVC_simulated": {
+    "dataset": "MVC_simulated",
+    "data_path": "data/MVC_simulated",
+    "checkpoint": "checkpoints/MVC_simulated.pth",
+    "cluster_method": "kmeans",
+    "target_k": 6,
+    "batch_size": 1024,
+    "seed": 42
+  },
+  "TripletOmics": {
+    "dataset": "TripletOmics",
+    "data_path": "data/TripletOmics",
+    "checkpoint": "checkpoints/TripletOmics.pth",
+    "cluster_method": "leiden",
+    "target_k": 5,
+    "batch_size": 1024,
+    "seed": 42
+  }
+}
